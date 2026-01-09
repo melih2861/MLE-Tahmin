@@ -1,68 +1,68 @@
-<<<<<<< HEAD
 # MLE-Tahmin
-Aktüerya için MLE parametre tahmin programı (Gamma, Pareto, Lomax)
-=======
-### **Geliştirici**
 
-&nbsp;  
-   Ad-Soyad: **Melih Karagülmez**
+## Aktüerya için MLE Parametre Tahmin Programı
 
-&nbsp;     Bölüm: **Aktüerya Bilimleri**
+**(Gamma, Pareto, Lomax)**
 
+---
 
+### 👤 Geliştirici
 
+* **Ad–Soyad:** Melih Karagülmez
+* **Bölüm:** Aktüerya Bilimleri
 
+---
 
-### Aktüeryal Dağılım Tahmin Sistemi
+## 📊 Aktüeryal Dağılım Tahmin Sistemi
 
+Bu proje, sigorta ve finans sektöründe sıklıkla karşılaşılan **hasar / tutar verilerini** analiz etmek amacıyla geliştirilmiş bir **Python tabanlı MLE (Maximum Likelihood Estimation)** aracıdır.
 
+Veri setinize en uygun:
 
-Bu proje, sigorta ve finans sektöründe sıklıkla karşılaşılan hasar/tutar verilerini analiz etmek için geliştirilmiş bir Python aracıdır. Veri setinize en uygun \*\*Gamma\*\*, \*\*Pareto\*\* ve \*\*Lomax\*\* dağılım parametrelerini otomatik olarak hesaplar.
+* **Gamma**
+* **Pareto (Tip I)**
+* **Lomax (Pareto Tip II)**
 
+dağılımlarının parametrelerini **otomatik olarak** hesaplar.
 
+---
 
-##### &nbsp;🚀 Özellikler
+## 🚀 Özellikler
 
+### 🔹 Çoklu Dağılım Desteği
 
+* **📘 Gamma:** Genel hasar tutarları için
+* **📗 Pareto (Tip I):** Büyük hasarlar, kuyruk riski ve reasürans analizleri
+* **📙 Lomax (Pareto Tip II):** Ağır kuyruklu verilerde esnek modelleme
 
-&nbsp; Çoklu Dağılım Desteği:
+### 🔹 Akıllı Veri Temizliği
 
-&nbsp;    📘 Gamma: Genel hasar tutarları için.
+* Negatif ve **0 veya altı** değerleri otomatik tespit eder
+* Analiz dışı bırakır
+* Kullanıcıyı bilgilendirir
 
-&nbsp;    📗 Pareto (Tip I): Büyük hasarlar (kuyruk riski) ve reasürans analizleri için.
+### 🔹 Türkçe Format Desteği
 
-&nbsp;    📙 Lomax (Pareto Tip II): Ağır kuyruklu verilerde esnek modelleme için.
+* Excel kaynaklı CSV dosyalarındaki
+  **virgüllü ondalık sayıları (örn: 1,25)** sorunsuz okur
 
-&nbsp;
+### 🔹 İnteraktif Kullanım
 
-Akıllı Veri Temizliği: Negatif veya hatalı (0 ve altı) verileri otomatik tespit eder, analizden çıkarır ve kullanıcıyı uyarır.
+* Dosya adı ve dağılım türü
+* **Komut satırı üzerinden kullanıcıdan alınır**
 
-&nbsp;Türkçe Format Desteği: Virgüllü ondalık (örn: `1,25`) içeren Excel kaynaklı CSV dosyalarını sorunsuz okur.
+---
 
-&nbsp;    İnteraktif Arayüz: Kullanıcıdan dosya adı ve dağılım türünü komut satırı üzerinden ister.
+## 🛠️ Kurulum
 
-
-
-##### &nbsp;🛠️ Kurulum
-
-
-
-Gerekli kütüphaneleri yüklemek için terminalde şu komutu çalıştırın:
-
-
-
-```bash
+Gerekli kütüphaneleri yüklemek için terminalde:
 
 pip install -r requirements.txt
 
+komutunu çalıştırmanız yeterlidir.
 
+---
 
+## 📌 Not
 
-
-
-
-
-
-
-
->>>>>>> 1ae5344 (İlk sürüm - Aktüeryal MLE Tahmin Sistemi)
+Bu proje **aktüeryal modelleme**, **risk analizi** ve **istatistiksel dağılım tahmini** dersleri için uygundur ve akademik amaçla geliştirilmiştir.
